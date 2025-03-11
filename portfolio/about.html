@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <title>portfolio</title>
+  <meta charset="UTF-8">
+  <meta name="description" content="webデザイナーを目指す、いしかわほのかのポートフォリオサイトです。" >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0,  maximum-scale=1, user-scalable=no">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css"> 
+  <link rel="stylesheet" href="style_about.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <!-- headerここから -->
+    <header>
+      <a href="index.html">
+        <img class="name-logo" src="image/logo/name.png" alt="TOPへ戻る">
+      </a>
+      <!-- PC用　ナビゲーション -->
+      <nav class="pc">
+        <ul>
+          <li><a href="index.html#works">WORKS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="https://form.run/@kumuhono--bqWtH5uYfF8CgFlZ7hQu">CONTACT</a></li>
+        </ul>
+      </nav>
+      <!-- スマホ用 ハンバーガーメニュー -->
+      <nav class="menu">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="index.html">TOP</a></li>
+          <li><a href="index.html#works">WORKS</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="https://form.run/@kumuhono--bqWtH5uYfF8CgFlZ7hQu">CONTACT</a></li>
+        </ul>
+      </nav>
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      <script src="main.js"></script>
+      <!-- ハンバーガーメニュー ここまで -->
+    </header>
+    <!-- headerここまで -->
+
+    <!-- mainここから -->
+    <main>
+      <div class="top-wrapper">
+        <section>
+          <h1>ABOUT ME</h1>
+          <div class="flex3">
+            <div class="item3">
+              <img id="top-image-pic" src="image/about/about-2.png" alt="いしかわほのかの写真">
+            </div>
+            <div id="top-text" class="item3">
+              <h2 class="name-titile">いしかわ ほのか</h2>
+              <p class="profile-text">1998年島根県生まれ。<br>
+                大学卒業後、新卒で大手損害保険会社の総合職として働いていました。結婚・夫の転勤を機に退職し、今後のキャリアを考えていたときに「webデザイナー」という仕事に出会いました。想いを形にできるwebデザインの仕事にチャレンジしたいという気持ちが芽生え、2024年9月に侍エンジニアへ入学。デザインやコーディングについて学びました。
+                <br>
+                <br>
+                趣味は2023年に始めたバレーボールと、飲食店の新規開拓をすること。<br>そして休日は散歩がてらポケモンGOを楽しんでいます。</p>
+            </div>
+          </div>
+        </section>
+        <section class="skill">
+          <h1 class="skill-title">SKILLS</h1>
+            <div class="flex3">
+              <div class="item3">
+                <img class="skill-logo" src="image/logo/webdesign.png" alt="webdesign">
+              </div>
+              <div class="item3">
+                <h2 class="webdesign">Web design</h2>
+                <!-- <div class="profile-text"> -->
+                  <p class="profile-text">Webサイトやバナーの制作をすることができます。<br>
+                    目的を明確にした制作を心がけ、誰にでも伝わるデザイン・誰でもわかるコードを書くことを意識しています。<br>
+                    レスポンシブルや更新性の高いサイト、動きのあるサイトなど、ニーズに合わせて作成いたします。
+                  </p>
+                <!-- </div> -->
+              </div>
+            </div>
+          <!-- スキル詳細 -->
+            <div class="wrap">
+              <input type="checkbox" id="check1">
+              <label for="check1">詳しくみる<span class="icon"></span></label>
+                <div class="content">
+                  <ul>
+                  <li class="skill-list">
+                    <h3>Photoshop</h3>
+                    <p>画像の補正や切り抜き、バナーの作成をすることができます</p>
+                  </li>
+                  <li>
+                    <h3>HTML/CSS</h3>
+                    <p>Visual Studio Codeを使用し、コーディングを行うことができます</p>
+                  <li>
+                    <h3>JavaScript</h3>
+                    <p>サイトに動きを加えることができます</p>
+                  </li>
+                  <li>
+                    <h3>WordPress</h3>
+                    <p class="p-last">オリジナルテーマの構築ができます</p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+        </section>
+      </div>
+    </main>
+    <!-- mainここまで -->
+
+    <!-- footerここから -->
+    <footer>
+      <h1 class="contact-title">CONTACT</h1>
+      <p class="thanks-message">ご覧いただきありがとうございます</p>
+      <div class="btn3">
+        <a href="contact.html" class="btn btn--contact btn-c">
+          <i class="fa fas fa-envelope"></i>お問い合わせはこちら
+        </a>
+      </div>
+      <p class="copy-right">© 2025 HONOKA ISHIKAWA</p>
+    </footer>
+    <!-- footerここまで -->
+
+  </div>
+
+</body>
+</html>
